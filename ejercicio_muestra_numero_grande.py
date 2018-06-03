@@ -4,7 +4,7 @@ numero_dicho = ""
 while len(lista_numeros) < 10 :
     numero_dicho = input("¿Cual es el siguiente número?")
     if numero_dicho.isdigit():
-        lista_numeros.append(numero_dicho)
+        lista_numeros.append(int(numero_dicho))
     else:
         print("Esto no es un número. Por favor, vuelve a intentarlo: ")
 print(lista_numeros)
