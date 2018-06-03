@@ -14,7 +14,7 @@ for numero in lista_numeros:
     if numero_mayor < numero:
         numero_mayor = numero
     else:
-        print("El número era más pequeño")
+        print("El número era igual o más pequeño")
 
 
 print("El número más grande que has puesto es {}".format(numero_mayor))
