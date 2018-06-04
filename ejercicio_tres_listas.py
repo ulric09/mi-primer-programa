@@ -1,4 +1,4 @@
-texto_usuario = "Hola, me llamo Ulric. ¿Tu como te llamas?"
+texto_usuario = input("Introduce tu frase y te mostraré las vocales ordenadas: ")
 lista_de_vocales = []
 
 for letras in texto_usuario:
